@@ -51,7 +51,7 @@ cache: pip
 # install dependencies
 install:
   - if [ "$TRAVIS_OS_NAME" != "windows" ]; then travis_wait 15 pip3 install --upgrade pip; fi
-  - if [ "$TRAVIS_OS_NAME" = "windows" ]; then travis_wait 15 pip install --no-cache-dir -e .; fi
+  - if [ "$TRAVIS_OS_NAME" = "windows" ]; then travis_wait 1 pip install --no-cache-dir -e .; fi
   - if [ "$TRAVIS_OS_NAME" != "windows" ]; then travis_wait 15 pip3 install --no-cache-dir -e .; fi
 before_script: cd tests/ci_tests
 # run tests
