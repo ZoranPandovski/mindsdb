@@ -49,12 +49,7 @@ elif sys_platform == 'darwin':
 
 # Windows specific requirements
 elif sys_platform in ['win32','cygwin','windows']:
-    requirements = ['cwrap',*requirements]
-    ludwig_model_requirements = remove_requirements(ludwig_model_requirements, 'tensorflow', 'tensorflow == 1.13.1')
-    ludwig_model_requirements = remove_requirements(ludwig_model_requirements, 'ludwig', 'ludwig == 0.1.2')
-    ludwig_model_requirements = remove_requirements(ludwig_model_requirements, 'tensorflow-estimator')
-    requirements = remove_requirements(requirements,'wheel', replace='wheel == 0.26.0')
-
+  
 else:
     print('\n\n====================\n\nError, platform {sys_platform} not recognized, proceeding to install anyway, but mindsdb might not work properly !\n\n====================\n\n')
 
