@@ -3,7 +3,8 @@
 	<br>
 	<br>
 </h1>
-
+<h3 align="center">Explainable AutoML framework for developers</h3>
+	
 ![](https://img.shields.io/badge/python-3.6%20|%203.7-brightgreen.svg)
 [![PyPI version](https://badge.fury.io/py/MindsDB.svg)](https://badge.fury.io/py/MindsDB)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/mindsdb)
@@ -11,11 +12,9 @@
 
 ---
 
-| 
 <img alt="Linux build" src="https://www.screenconnect.com/Images/LogoLinux.png" align="center" height="30" width="30" /><br />Linux                    | <img alt="Windows build" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Windows_logo_-_2012_%28dark_blue%2C_lines_thinner%29.svg/414px-Windows_logo_-_2012_%28dark_blue%2C_lines_thinner%29.svg.png" align="center" height="30" width="30" /><br />Windows | <img alt="macOS build" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/245px-Apple_logo_black.svg.png" align="center" height="30" width="30" /><br />macOS |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [![Linux build status](https://badges.herokuapp.com/travis/ZoranPandovski/mindsdb?branch=master&label=build&env=BADGE=linux)](https://travis-ci.com/mindsdb/mindsdb) | [![Windows build status](https://badges.herokuapp.com/travis/ZoranPandovski/mindsdb?branch=master&label=build&env=BADGE=windows)](https://travis-ci.com/mindsdb/mindsdb)                                          | [![macOS build status](https://badges.herokuapp.com/travis/ZoranPandovski/mindsdb?branch=master&label=build&env=BADGE=osx)](https://travis-ci.com/mindsdb/mindsdb)          
-|
+| [![Linux build status](https://badges.herokuapp.com/travis/ZoranPandovski/mindsdb?branch=master&label=build&env=BADGE=linux)](https://travis-ci.com/mindsdb/mindsdb) | [![Windows build status](https://badges.herokuapp.com/travis/ZoranPandovski/mindsdb?branch=master&label=build&env=BADGE=windows)](https://travis-ci.com/mindsdb/mindsdb)                                          | [![macOS build status](https://badges.herokuapp.com/travis/ZoranPandovski/mindsdb?branch=master&label=build&env=BADGE=osx)](https://travis-ci.com/mindsdb/mindsdb)     
 
 MindsDB is an Explainable AutoML framework for developers, built on top of Pytorch.[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Machine%20Learning%20in%20one%20line%20of%20code%21&url=https://www.mindsdb.com&via=mindsdb&hashtags=ai,ml,machine_learning,neural_networks)
 
