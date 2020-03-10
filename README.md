@@ -3,7 +3,7 @@
 	<br>
 	<br>
 </h1>
-<h3 align="center">Explainable AutoML framework for developers</h3>
+<h3 align="center">Explainable AutoML</h3>
 	
 ![](https://img.shields.io/badge/python-3.6%20|%203.7-brightgreen.svg)
 [![PyPI version](https://badge.fury.io/py/MindsDB.svg)](https://badge.fury.io/py/MindsDB)
