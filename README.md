@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img width="400" src="https://github.com/ZoranPandovski/mindsdb/blob/master/assets/MindsDB_TagLineShadow@3x.png?raw=true" alt="MindsDB">
+	<img width="600" src="https://github.com/ZoranPandovski/mindsdb/blob/master/assets/MindsDB_TagLineShadow@3x.png?raw=true" alt="MindsDB">
 	<br>
 	<br>
 </h1>
@@ -7,6 +7,7 @@
 ![](https://img.shields.io/badge/python-3.6%20|%203.7-brightgreen.svg)
 [![PyPI version](https://badge.fury.io/py/MindsDB.svg)](https://badge.fury.io/py/MindsDB)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/mindsdb)
+[![Discourse posts](https://img.shields.io/discourse/posts?server=https%3A%2F%2Fcommunity.mindsdb.com%2F)](https://community.mindsdb.com/)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.mindsdb.com%2F)
 
 ---
