@@ -10,6 +10,7 @@ matrix:
       sudo: true
       env:
         DEPLOYMENT_ENV="true"
+        BADGE=linux
       services:
         - docker
 
@@ -24,6 +25,8 @@ matrix:
       python: 3.8
       node: 11.15.0
       dist: xenial
+      env:
+        BADGE=osx
 
     - name: "Python 3.7.2 on OSX"
       os: osx
