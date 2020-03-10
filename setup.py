@@ -49,7 +49,7 @@ elif sys_platform == 'darwin':
 
 # Windows specific requirements
 elif sys_platform in ['win32','cygwin','windows']:
-    print('WIndows fail)
+    print('WIndows fail')
 else:
     print('\n\n====================\n\nError, platform {sys_platform} not recognized, proceeding to install anyway, but mindsdb might not work properly !\n\n====================\n\n')
 
