@@ -39,7 +39,9 @@ matrix:
       before_install:
         - choco install python --version=3.7.3
         - python -m pip install --upgrade pip
-      env: PATH=/c/Python37:/c/Python37/Scripts:$PATH
+      env: 
+        PATH=/c/Python37:/c/Python37/Scripts:$PATH
+        BADGE=windows   
 
 notifications:
   # send notifications only on master failure
