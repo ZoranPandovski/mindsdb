@@ -88,6 +88,9 @@ print('The predicted price is ${price} with {conf} confidence'.format(price=resu
 
 ```
 
+[![Mindsdb example](https://github.com/ZoranPandovski/mindsdb/blob/master/assets/mdb-ex.gif)
+
+
 Visit the documentation to [learn more](https://mindsdb.github.io/mindsdb/docs/basic-mindsdb)
 
 * **Google Colab**: You can also try MindsDB straight here [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg "MindsDB")](https://colab.research.google.com/drive/1qsIkMeAQFE-MOEANd1c6KMyT44OnycSb)
