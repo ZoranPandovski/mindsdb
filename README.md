@@ -3,12 +3,12 @@
 	<br>
 	<br>
 </h1>
-	
-![](https://img.shields.io/badge/python-3.6%20|%203.7-brightgreen.svg)
-[![PyPI version](https://badge.fury.io/py/MindsDB.svg)](https://badge.fury.io/py/MindsDB)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/mindsdb)
-[![Discourse posts](https://img.shields.io/discourse/posts?server=https%3A%2F%2Fcommunity.mindsdb.com%2F)](https://community.mindsdb.com/)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.mindsdb.com%2F)
+<p align="center">
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.6%20|%203.7-brightgreen.svg" alt="Python supported"></a>
+  <a href="https://pypi.org/project/MindsDB/"><img src="https://img.shields.io/pypi/dm/mindsdb" alt="PyPi Downloads"></a>
+  <a href="https://community.mindsdb.com/"><img src="https://img.shields.io/discourse/posts?server=https%3A%2F%2Fcommunity.mindsdb.com%2F" alt="MindsDB Community"></a>
+  <a href="https://www.mindsdb.com/"><img src="https://img.shields.io/website?url=https%3A%2F%2Fwww.mindsdb.com%2F" alt="MindsDB Website"></a>
+</p>
 
 ---
 
