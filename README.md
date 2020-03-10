@@ -1,9 +1,8 @@
 <h1 align="center">
-	<img width="400" src="https://raw.githubusercontent.com/mindsdb/mindsdb/master/assets/logo_gh.png" alt="MindsDB">
+	<img width="400" src="https://github.com/ZoranPandovski/mindsdb/blob/master/assets/MindsDB_TagLineShadow@3x.png?raw=true" alt="MindsDB">
 	<br>
 	<br>
 </h1>
-<h3 align="center">Explainable AutoML</h3>
 	
 ![](https://img.shields.io/badge/python-3.6%20|%203.7-brightgreen.svg)
 [![PyPI version](https://badge.fury.io/py/MindsDB.svg)](https://badge.fury.io/py/MindsDB)
