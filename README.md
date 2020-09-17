@@ -54,11 +54,9 @@ sh -c "$(curl -sSL https://raw.githubusercontent.com/mindsdb/mindsdb/master/dist
 
 Please click on the image below to load the tutorial:
 
-<div align="center">
+<div>
   <a href="https://www.youtube.com/embed/Tguat5jjD4g"><img src="https://img.youtube.com/vi/Tguat5jjD4g/0.jpg" alt="IMAGE ALT TEXT"></a>
 </div>
-
-(Note: Please manually set it to 720p or greater to have the text appear clearly)
 
 ## Contributing
 
