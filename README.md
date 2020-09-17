@@ -15,7 +15,9 @@
 MindsDB is an open-source AI layer for existing databases that allows you to effortlessly develop, train and deploy state-of-the-art machine learning models using SQL queries. [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Machine%20Learning%20in%20one%20line%20of%20code%21&url=https://www.mindsdb.com&via=mindsdb&hashtags=ai,ml,machine_learning,neural_networks)
 
 <h2 align="center">
-  <img width="600" src="https://github.com/mindsdb/mindsdb_native/blob/stable/assets/MindsDBTerminal.png?raw=true" alt="MindsDB">	
+   Predictive AI layer for existing databases
+   <br/>
+  <img width="600" src="https://assets.website-files.com/5f500135c5852524c3845958/5f5024f70d3e5f408250a4a9_Mindsdb%20AI%20tables.gif" alt="MindsDB">	
 </h2>
 
 
@@ -23,6 +25,8 @@ MindsDB is an open-source AI layer for existing databases that allows you to eff
 
 * [Installing MindsDB](https://docs.mindsdb.com/Installing/)
 * [AI Tables](https://docs.mindsdb.com/databases/)
+	* [AI Tables in MariaDB](https://docs.mindsdb.com/databases/MariaDB/)
+	* [AI Tables in ClickHouse](https://docs.mindsdb.com/databases/Clickhouse/)
 * [Learning from Examples](https://docs.mindsdb.com/tutorials/BasicExample/)
 * [MindsDB Explainability GUI](http://mindsdb.com/product)
 * [Frequently Asked Questions](https://docs.mindsdb.com/FAQ/)
@@ -46,49 +50,7 @@ MindsDB is an open-source AI layer for existing databases that allows you to eff
 sh -c "$(curl -sSL https://raw.githubusercontent.com/mindsdb/mindsdb/master/distributions/docker/build-docker.sh)"
 ```
 
-
-### Usage
-
-Once you have MindsDB installed, you can use it as follows:
-
-Import **MindsDB**:
-
-```python
-
-from mindsdb import Predictor
-
-```
-
-One line of code to **train a model**:
-
-```python
-# tell mindsDB what we want to learn and from what data
-Predictor(name='home_rentals_price').learn(
-    to_predict='rental_price', # the column we want to learn to predict given all the data in the file
-    from_data="https://s3.eu-west-2.amazonaws.com/mindsdb-example-data/home_rentals.csv" # the path to the file where we can learn from, (note: can be url)
-)
-
-```
-
-
-One line of code to **use the model**:
-
-```python
-
-# use the model to make predictions
-result = Predictor(name='home_rentals_price').predict(when_data={'number_of_rooms': 2, 'initial_price': 2000, 'number_of_bathrooms':1, 'sqft': 1190})
-
-# you can now print the results
-print('The predicted price is between ${price} with {conf} confidence'.format(price=result[0].explanation['rental_price']['confidence_interval'], conf=result[0].explanation['rental_price']['confidence']))
-
-```
-
-Visit the documentation to [learn more](https://docs.mindsdb.com/)
-
-* **Google Colab**: You can also try MindsDB straight here [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg "MindsDB")](https://colab.research.google.com/drive/1qnH4bhTKvm6mEyV8nAoK9uMZm8HV_gwE?usp=sharing)
-
-
-## Video Tutorial
+## MindsDB AI tables demo using MariaDB (Video tutorial)
 
 Please click on the image below to load the tutorial:
 
