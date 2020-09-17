@@ -60,23 +60,7 @@ Please click on the image below to load the tutorial:
 
 ## Contributing
 
-In order to make changes to mindsdb, the ideal approach is to fork the repository than clone the fork locally `PYTHONPATH`.
-
-For example: `export PYTHONPATH=$PYTHONPATH:/home/my_username/mindsdb`.
-
-Too test your changes you can run unit tests (fast) and CI tests (slightly longer) locally.
-
-To run the unit tests:
-* Install pytest: `pip install -r requirements_test.txt`
-* Run: `pytest`
-
-To run the CI tests: `cd tests/ci_tests && python3 full_test.py`
-
-Once you have specific changes you want to merge into master, feel free to make a PR.
-
-Due to some repository restructuring the "old" Mindsdb repository is now Mindsdb Native (https://github.com/mindsdb/mindsdb_native). This repository is the "old" Mindsdb Server repository, though from a user's perspective everything should work just the same.
-
-Thanks for Max Stepanov (@StpMax) , Zoran Pandovski (@ZoranPandovski), Jorge Torres(@torrmal) for their contributions to Mindsdb Server, even though their contributions to those particular components may not show up in the commit history.
+To contribute to mindsdb, please check out our [Contribution guide](https://github.com/mindsdb/mindsdb/blob/stable/CONTRIBUTING.md).
 
 ## Running mindsdb as a developer
 
